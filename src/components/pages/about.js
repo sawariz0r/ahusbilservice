@@ -13,7 +13,7 @@ function About() {
         
         <div class="jumbotron">
               <h1 class="display-4">Om oss!</h1>
-              <p class="lead">Vi är en liten verkstad placerat i åhus.. bla bla bla Cras at lacus
+              <p class="lead">Vi är en liten verkstad som ligger i åhus.. bla bla bla Cras at lacus
                eu felis vehicula convallis. Pellentesque in turpis eu elit dignissim placerat. Sed</p>
               <hr class="my-4"></hr>
               <p>Vi fixar din bil..Cras at lacus eu felis vehicula convallis. Pellentesque
