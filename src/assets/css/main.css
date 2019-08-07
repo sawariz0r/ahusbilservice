@@ -11,6 +11,9 @@
   @media screen and (max-width: 1080px) {
     .header-grid {
       grid-template-columns: auto auto; } }
+  @media screen and (max-width: 425px) {
+    .header-grid {
+      grid-template-columns: auto; } }
   .header-grid .grid-item {
     background-color: white;
     margin: 1rem; }
@@ -28,6 +31,9 @@
   @media screen and (max-width: 1080px) {
     .header-grid-two {
       grid-template-columns: auto auto; } }
+  @media screen and (max-width: 425px) {
+    .header-grid-two {
+      grid-template-columns: auto; } }
   .header-grid-two img {
     height: 10vh;
     margin: 1vh; }
@@ -48,7 +54,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-image: url("../images/front.jpg");
-  width: 100wh;
+  width: 100%;
   min-height: 80vh;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -70,6 +76,9 @@
       .landing-page h2 {
         grid-template-columns: auto auto;
         font-size: 50px; } }
+    @media screen and (max-width: 425px) {
+      .landing-page h2 {
+        font-size: 25px; } }
   .landing-page .first-button {
     background-color: #1c3762;
     color: white;
