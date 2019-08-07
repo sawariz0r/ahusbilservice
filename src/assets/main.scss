@@ -44,6 +44,7 @@ $homepage-image: url('../images/front.jpg');
   background-color: $primary-color;
   min-height: 50px;
 
+
   @media screen and (max-width: $break-width) {
     grid-template-columns: auto auto;
   }
@@ -168,6 +169,22 @@ $homepage-image: url('../images/front.jpg');
   h2 {
     margin-top: 2vh;
   }
+
+  @media screen and (max-width: 425px) {
+    .jumbotron {
+      font-size: 10px;
+    }
+
+    .lead {
+      font-size: 16px;
+    }
+
+    .display-4 {
+      font-size: 30px;
+    }
+
+  }
+  
 }
 
 .products-page{
@@ -198,7 +215,7 @@ $homepage-image: url('../images/front.jpg');
     text-align: center;
     border: 2px solid lightgray;
     border-radius: 20px;
-    max-height: 40vh;
+    min-height: 40vh;
   }
 
   .product-item:hover {
