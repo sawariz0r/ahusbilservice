@@ -184,6 +184,10 @@ $homepage-image: url('../images/front.jpg');
   @media screen and (max-width: $break-width) {
     grid-template-columns: auto auto;
   }
+
+  @media screen and (max-width: 425px) {
+    grid-template-columns: auto;
+  }
   
 
 
